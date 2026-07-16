@@ -3,7 +3,8 @@
     {
       "name": "Default",
       "files": [
-        ".gitignore"
+        "src/routes/index.tsx",
+        ".vscode/changelists.json"
       ]
     }
   ],

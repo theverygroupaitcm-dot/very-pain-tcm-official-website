@@ -127,15 +127,6 @@ function Hero() {
               className="w-full h-[500px] object-cover object-top"
             />
           </div>
-          <div className="absolute -left-6 bottom-10 hidden sm:flex items-center gap-3 bg-card rounded-2xl px-4 py-3 shadow-[var(--shadow-soft)] border border-border">
-            <div className="grid place-items-center w-10 h-10 rounded-xl bg-accent text-primary">
-              <Smile className="w-5 h-5" />
-            </div>
-            <div>
-              <div className="text-sm font-semibold">98% 康复率</div>
-              {/* <div className="text-xs text-muted-foreground">Across specialties</div> */}
-            </div>
-          </div>
           {/* <div className="absolute -right-4 top-10 hidden sm:flex items-center gap-3 bg-card rounded-2xl px-4 py-3 shadow-[var(--shadow-soft)] border border-border">
             <div className="grid place-items-center w-10 h-10 rounded-xl bg-accent text-primary">
               <Clock className="w-5 h-5" />
@@ -226,7 +217,7 @@ function About() {
               className="w-full h-[480px] object-cover"
             />
           </div>
-          <div className="absolute -bottom-8 -right-4 sm:right-8 bg-card rounded-2xl p-6 shadow-[var(--shadow-glow)] border border-border max-w-[260px]">
+          {/* <div className="absolute -bottom-8 -right-4 sm:right-8 bg-card rounded-2xl p-6 shadow-[var(--shadow-glow)] border border-border max-w-[260px]">
             <div className="flex items-center gap-1 text-primary">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-current" />
@@ -236,7 +227,7 @@ function About() {
               "A very good experience and treatment, i have lower back pain for a month, and finally been heal with 1st-time treatement"
             </p>
             <p className="mt-2 text-xs text-muted-foreground">— Scott Liew</p>
-          </div>
+          </div> */}
         </div>
 
         <div>
@@ -317,7 +308,7 @@ function Testimonials() {
   ];
   return (
     <section id="testimonials" className="py-24 lg:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10">
+      {/* <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">顾客感言</span>
           <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight">
@@ -343,7 +334,7 @@ function Testimonials() {
             </figure>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
